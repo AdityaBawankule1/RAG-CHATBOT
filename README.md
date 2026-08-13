@@ -291,69 +291,6 @@ ChatOllama(
 
 A temperature of `0` makes responses more deterministic.
 
-## 📁 Suggested Project Structure
-
-```text
-local-rag-chatbot/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── venv/
-```
-
-You should **not** commit the virtual environment.
-
-Example `.gitignore`:
-
-```gitignore
-venv/
-__pycache__/
-*.pyc
-.env
-.DS_Store
-```
-
-## 📦 requirements.txt
-
-Create a `requirements.txt` file containing:
-
-```text
-streamlit
-langchain
-langchain-community
-langchain-text-splitters
-langchain-huggingface
-langchain-ollama
-langchain-core
-faiss-cpu
-sentence-transformers
-```
-
-Then install everything with:
-
-```bash
-pip install -r requirements.txt
-```
-
-## 🧪 Example
-
-Suppose you upload:
-
-```text
-company_policy.txt
-```
-
-Containing information about employee policies.
-
-You could ask:
-
-```text
-What is the annual leave policy?
-```
-
-The system retrieves the relevant sections from the document and provides an answer using the local Llama model.
 
 ## ⚠️ Current Limitations
 
