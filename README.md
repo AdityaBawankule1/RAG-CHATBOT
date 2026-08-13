@@ -95,8 +95,8 @@ After the models and dependencies have been downloaded, the chatbot can run loca
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd <PROJECT_FOLDER>
+git clone https://github.com/AdityaBawankule1/RAG-CHATBOT
+cd RAG-CHATBOT
 ```
 
 ### 2. Install dependencies
@@ -175,6 +175,7 @@ Enter your question in the chat box.
 
 Here are some of the questions I asked to the chatbot from my document.
 
+### Context
 ```text
 Staring out the window, Clara watched the thick grey fog roll across the cobblestone path. The old brass lantern by the garden gate flickered, its tiny flame struggling against the damp chill of autumn. Nobody walked down this lane after midnight, yet she distinctly heard the slow, measured tap of a wooden cane approaching the door. She froze, her tea growing cold in her hands.
 ```
