@@ -4,6 +4,12 @@ A **fully local Retrieval-Augmented Generation (RAG) chatbot** built with **Stre
 
 The application allows you to upload a `.txt` document, convert it into searchable vector embeddings, and ask questions about the document using a locally running LLM. Your document and conversations remain on your machine.
 
+## 📸 Screenshot
+
+![Local RAG Chatbot](screenshots/1.png)
+
+![Local RAG Chatbot](screenshots/2.png)
+
 ## ✨ Features
 
 * 📄 Upload `.txt` documents
